@@ -1,3 +1,5 @@
 ---
-  - service: 
-  - become: yes
+- hosts: all 
+  become: true 
+  tasks:
+  - name: Update and Upgrade
